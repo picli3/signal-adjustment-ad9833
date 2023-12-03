@@ -55,7 +55,17 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "lib_footprint_mismatch|126500000|96825000|6d23c1ae-7f16-49af-b4f6-662610205b06|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|136900000|90400000|c6eb09d6-c2f5-4e0d-ae82-fe34071fea4a|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|137000000|103620000|72805b17-5884-4b2f-aa5e-79f7143f5dc7|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|140460000|86600000|021f39a3-7de6-4be4-a5e5-e572a33dc297|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|141100000|94200000|6a558734-b51d-4590-b5cf-b201ce29a3a5|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|142800000|102000000|5a80e54e-7c17-4e69-9625-1d8f244cbc1c|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|163500000|87500000|8dc4690a-340e-4102-a5b2-61d892a629d6|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|165752500|94225000|6dd9fffe-c8c4-46af-b137-7c2b5da58760|00000000-0000-0000-0000-000000000000",
+        "starved_thermal|140325000|101365000|9957ff91-9200-4740-91d0-1fc7304ed5ec|f8e43ccc-0c3a-4185-a214-36c54a5775ec|F.Cu"
+      ],
       "meta": {
         "version": 2
       },
@@ -489,8 +499,7 @@
     "net_colors": {
       "+3V3": "rgb(0, 255, 255)",
       "+5V": "rgb(0, 255, 0)",
-      "/leveling/-5V": "rgb(255, 0, 255)",
-      "GNDA": "rgb(255, 153, 0)"
+      "/leveling/-5V": "rgb(255, 0, 255)"
     },
     "netclass_assignments": null,
     "netclass_patterns": [
@@ -544,7 +553,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "/home/maykol/repos/maykolrey.com.kicad_wks",
-    "plot_directory": "",
+    "plot_directory": "v1.0.0",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
