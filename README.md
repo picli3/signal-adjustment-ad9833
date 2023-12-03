@@ -15,5 +15,5 @@ Todo el circuito esta en una cara asi que sera facil soldar.
 Los archivos de fabricacion los puedes descargar [aqui](https://github.com/picli3/signal-adjustment-ad9833/releases/download/v1.0.0/v1.0.0.zip)
 
 Mas información [maykolrey.com](https://maykolrey.com)
-[licencia](LICENSE)
+[licencia](./LICENSE)
 
